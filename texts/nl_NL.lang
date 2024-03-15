@@ -1,34 +1,29 @@
-﻿
-## Paczka stworzona na serwer WASDHC!
-## Autor: WASD Oliwier (WASDHC)
-
-## Przedmioty
-tile.end_stone.name=§r§l§6STONIARKA!§r §8[§c+§8]
-tile.purpur_block.default.name=§r§l§6STONIARKA!§r §8[§6+§8]
-tile.dragon_egg.name=§r§l§6SKARB!§r
-item.netherite_pickaxe.name=§r§l§6KILOF KOPACZA!§r
-tile.concrete.magenta.name=§r§l§6BOY FARMER!§r
-tile.concrete.cyan.name=§r§l§6KOPACZ FOS!§r
-tile.mossy_cobblestone.name=§r§l§6COBBLE X!§r
+﻿## Przedmioty
+tile.end_stone.name=§r§l§6STONIARKA§r
+tile.dragon_egg.name=§r§l§6SKARB§r
+tile.purpur_block.default.name=§r§l§6STONIARKA+§r
+tile.concrete.magenta.name=§r§l§6BOY FARMER§r
+tile.concrete.cyan.name=§r§l§6KOPACZ FOS§r
+tile.mossy_cobblestone.name=§r§l§6COBBLE X§r
+item.netherite_pickaxe.name=§r§l§6KILOF KOPACZA
 
 ## Czat
-multiplayer.player.joined=§m§a
-multiplayer.player.joined.renamed=§m§a
-multiplayer.player.joined.realms=§m§a
-multiplayer.player.joined.realms.renamed=§m§a
-multiplayer.player.left=§m§a
-multiplayer.player.left.realms=§8[§c-§8] §r§c%s
-multiplayer.player.changeToPersona=§m§a
-multiplayer.player.changeToSkin=§m§a
-commands.reload.description=§r§bOdswieza §6skrypty oraz funkcje.
-commands.reload.success=§8» §r§e/reload §bzostal §6pomyslnie zakonczony!
+chat.stream.emote=§r
+chat.stream.text=§r
+chat.type.emote=§r
+chat.type.text=§r
+multiplayer.player.joined=§8[§e+§8] §e%s
+multiplayer.player.joined.renamed=§8[§e+§8] §e%s §8(§e%s§8)
+multiplayer.player.joined.realms=§8[§e+§8] §e%s §8(§e%s§8)
+multiplayer.player.joined.realms.renamed=§8[§e+§8] §e%s §8(§e%s§8)
+multiplayer.player.left=§8[§c-§8] §c%s
+multiplayer.player.left.realms=§8[§c-§8] §c%s
+multiplayer.player.changeToPersona=§r
+multiplayer.player.changeToSkin=§r
 commands.players.list=§8» §r§bNa serwerze gra §e%1$d§8/§6%2$d §bosob!
 commands.players.list.names=§8» §r§6%s
+commands.message.display.incoming=§r§8[§e%1$s §8=> §6Ty§8] §b%2$s
+commands.message.display.outgoing=§8[§6Ty §8=> §e%1$s§8] §b%2$s
 
 ## Interfejs
-map.position=§r§b%s %s %s
-
-## Wczytywanie
-progressScreen.message.building=§l§8» §r§ediscord.gg/wasdhc
-progressScreen.message.resourceLoading=§l§8» §r§ediscord.gg/wasdhc
-progressScreen.message.appearanceLoadWaitTimeMet=§l§8» §r§ediscord.gg/wasdhc
+map.position=%s %s %s
